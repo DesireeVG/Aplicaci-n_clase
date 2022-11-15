@@ -3,14 +3,14 @@ st.title(":cow: Tipos de alimentación :carrot:")
 st.sidebar.write("La alimentación es un proceso en el cual los seres vivos consumen diferentes tipos de alimentos para obtener de estos los nutrientes necesarios para sobrevivir y realizar todas las actividades necesarias del día a día.")
 st.sidebar.image("https://www.gob.mx/cms/uploads/article/main_image/43779/Alimentaci_n-Alimentos-Dieta.jpg" ,width=300)
 with st.sidebar:
-        st.write("Integrantes: Julieta Yamileth Cruz Trillo 179473")
+                st.write("Integrantes: ")
+        st.write("Julieta Yamileth Cruz Trillo 179473")
         st.write("Desiree Valenzuela González 330004")
         st.write("Universidad Autónoma de Chihuahua")
         st.write("Facultad de ciencias Químicas")
         st.write("Curso de programación")
         st.write("Docente: José Manuel Nápoles Duarte")
         
-
 col1,col2,col3 = st.columns( [5,5,5] )
 if col1.button("Omnívora"):
   col1.image("http://2.bp.blogspot.com/-JZPx97Aq3PU/VE0zdgiTXMI/AAAAAAAAFR4/-MfJGeMyprc/s1600/Nutricion-Dietas-Piramide-alimenticion-saludable-SENC.jpg",width=280)
